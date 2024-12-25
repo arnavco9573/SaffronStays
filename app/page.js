@@ -8,11 +8,11 @@ import MobilePriceCard from "./components/MobilePriceCard/MobilePriceCard";
 
 export default function Home() {
   const slides = [
-    { url: "http://localhost:3000/is1.png", title: "loc1" },
-    { url: "http://localhost:3000/is1.png", title: "loc2" },
-    { url: "http://localhost:3000/is1.png", title: "loc3" },
-    { url: "http://localhost:3000/is1.png", title: "loc4" },
-    { url: "http://localhost:3000/is1.png", title: "loc5" },
+    { url: "/is1.png", title: "loc1" },
+    { url: "/is1.png", title: "loc2" },
+    { url: "/is1.png", title: "loc3" },
+    { url: "/is1.png", title: "loc4" },
+    { url: "/is1.png", title: "loc5" },
   ];
 
   const footerData = [
