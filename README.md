@@ -1,22 +1,19 @@
-# SaffronStays Mobile Price Card Component
+## SaffronStays Clone Application
 
-## Overview
-A reusable mobile-friendly price card component with pricing details and a "Check Availability" button, designed for SaffronStays.
+This project is a responsive and feature-rich web application that replicates the functionalities and design of the SaffronStays platform. It includes modern UI components, a mobile-first approach, and reusable elements, ensuring scalability and maintainability.
 
 ## Features
-- Responsive design optimized for mobile devices.
-- Displays old and new prices with clear styling.
-- Includes a bold "Check Availability" button.
 
-## Usage
-1. Import the component:
-   ```jsx
-   import MobilePriceCard from './components/MobilePriceCard';
-   ```
-2. Add it to your JSX:
-   ```jsx
-   <MobilePriceCard />
-   ```
+Responsive UI: Optimized for both desktop and mobile devices using pure CSS.
+Reusable Components: Modular structure with reusable components such as the price card, header, and footer.
+Dynamic Price Card: Displays pricing information and an availability button, positioned below the footer for mobile devices.
+Mobile-Specific Enhancements: Conditional rendering and placement of icons and elements specifically for smaller screens.
+Custom Footer: Includes social media links and company branding information.
+
+## Tech Stack
+Next.js: For server-side rendering and seamless navigation.
+CSS: Used for styling without external frameworks.
+JavaScript: Added interactivity and reusable logic.
 
 ## Installation
 1. Clone the repository:
@@ -30,8 +27,10 @@ A reusable mobile-friendly price card component with pricing details and a "Chec
 3. Start the development server:
    ```bash
    npm run dev
-   ```
+   ``` 
 
-## License
-This project is licensed under the MIT License.
+## Credits
+This project was developed as an assignment for SaffronStays to showcase responsive design and reusable components.
+
+
 
