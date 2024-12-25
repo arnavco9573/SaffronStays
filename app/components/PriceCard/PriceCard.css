@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.price-card {
+  position: absolute;
+  top: 792px;
+  right: 100px;
+  width: 400px;
+  background-color: rgba(51, 51, 51, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  font-family: "Inter", sans-serif;
+}
+
+.price-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Inter", serif;
+  margin-bottom: 20px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.current-price {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.current-price span {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.discount-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  border: 1px solid rgba(182, 161, 109, 0.4);
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.discount-text {
+  font-size: 11px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+  color: rgba(249, 214, 128, 1);
+}
+
+.unlock-button {
+  background-image: linear-gradient(
+    to right,
+    rgba(165, 145, 95, 1),
+    rgba(210, 186, 127, 1),
+    rgba(180, 159, 107, 1)
+  );
+  border: 1px solid rgba(249, 214, 128, 1);
+  color: #000000;
+  border-radius: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 10px;
+  line-height: 15px;
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  padding: 5px; /* Add padding to prevent overlapping */
+}
+
+.calender-icon,
+.user-icon {
+  width: 16px;
+  height: 18px;
+  color: rgba(153, 153, 153, 1);
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+
+.date-input,
+.guests-input {
+  flex: 1; 
+  width: 100%;
+  background-color: transparent; 
+  padding: 8px 0px; 
+  border: transparent;
+  color: rgba(153, 153, 153, 1);
+  font-family: "Inter", serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.date-picker-container {
+  position: absolute;
+  top: 100%; 
+  left: 10;
+  z-index: 1000;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.date-picker-container span{
+ margin-left: 10px;
+}
+
+.guest-counter {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.guest-counter button {
+  border: none;
+  background-color: transparent; /* Avoid background affecting layout */
+  cursor: pointer;
+  padding: 0px;
+  margin: 2px;
+}
+
+.availability-button {
+  width: 100%;
+  height: 48px;
+  font-family: "Inter",serif;
+  background-image: linear-gradient(
+    to right,
+    rgba(165, 145, 95, 1),
+    rgba(210, 186, 127, 1),
+    rgba(180, 159, 107, 1)
+  );
+  border: none;
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width:768px) {
+  .price-card{
+    display: none;
+  }
+}

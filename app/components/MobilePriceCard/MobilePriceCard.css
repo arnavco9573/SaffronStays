@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* Mobile Price Card Container */
+.mobile-price-card {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #1a1a1a; /* Dark background */
+  color: white;
+  margin: 0px 0px; 
+  max-width: 90%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+}
+
+/* Price Details Section */
+.price-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+/* Old Price (Crossed out) */
+.old-price {
+  text-decoration: line-through;    
+  color: rgba(153, 153, 153, 1); 
+  font-size: 12px;
+  font-family: "Inter",serif;
+  line-height: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* New Price (Highlighted) */
+.new-price {
+  font-size: 20px;
+  color: rgba(242, 242, 242, 1); 
+  font-size: 16px;
+  font-family: "Inter",serif;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Per Night Styling */
+.new-price span {
+  font-size: 12px;
+  color: rgba(242, 242, 242, 1); 
+  font-weight: 500;
+  line-height: 18px;
+}
+
+/* Button Styling */
+.availability-button-mobile {
+    width: 185px;
+  background: linear-gradient(
+    to right,
+    rgba(165, 145, 95, 1),
+    rgba(210, 186, 127, 1),
+    rgba(180, 159, 107, 1)
+  ); /* Gold gradient */
+  color: black;
+  font-family: "Inter",serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Responsive Styling for Mobile */
+@media (max-width: 768px) {
+  .mobile-price-card {
+    background-color: rgba(19, 19, 19, 1);
+    display: flex;
+    max-width: 100%; /* Wider for smaller screens */
+    margin: 0px auto;
+  }
+}
